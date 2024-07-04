@@ -8,7 +8,10 @@ body
     height: 100%;
     margin: 0;
     display: cover;
-    overflow:scroll
+    overflow:scroll;
+    background-image: url(back.jpg);
+    background-size: cover;
+
 }
 h2{
     background-color: blueviolet;
@@ -35,7 +38,7 @@ h2{
     text-align: left;
     margin-top: 5%;
     margin-left: 20%;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .forms label{
@@ -53,10 +56,14 @@ h2{
     right: 20%;
     left: 300px;
     margin-left: 50px;
-    font-size: 15px;
-    color: #08010e;
+    font-size:20px;
+    color: #b370ee;
 }
-    /* placeholder: visible solid transparent rgb(202, 146, 243)} */
+.forms input::placeholder{
+    color: #b05df8;
+    opacity: 1;
+    background-color: rgb(220, 185, 253);
+}
 
 select {
         background-color:#ce9bf3;
@@ -64,11 +71,12 @@ select {
         color: #fdfbfb;
         padding: 5px 0 0 10px;
         width: 200px;
-        height: 2px
+        height: 30px;
         border-radius: 3px;
         margin-left: 7%;
         font-size: 15px;
         padding-bottom: 0;
+        margin-bottom: 5%;
     }
 
     select:focus {
